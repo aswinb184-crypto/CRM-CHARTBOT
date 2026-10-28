@@ -1,0 +1,48 @@
+.env
+.venv/
+.venv-1/
+.local_logs/
+__pycache__/
+*.py[cod]
+.env
+.venv/
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+backups/
+app_backup.py
+streamlit_app_backup.py
+streamlit_app_before_fix.py
+
+# Local environment files and credentials
+.env*
+!.env.example
+
+# Virtual environments, logs, caches, and temporary files
+.venv*/
+.local_logs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.tmp
+*.temp
+*~
+
+# Local backups
+backups/
+*_backup.py
+*_before_*.py
+
+# Private knowledge documents and derived indexes
+model/
+patient_rag/tenants/
+*.docx
+*.pdf
+*.pkl
+*.index
+*.faiss
